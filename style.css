@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(300deg, #9AC5F4, #A7ECEE, #FFEEBB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background {
+    height: 100vh;
+  }
+
+.profile-img{
+    border-radius: 25px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-family: 'Courgette', cursive;
+    font-size: 6rem;
+}
+
+.heading-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.image{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 30px;
+}
+
+@media (max-width:820px) {
+    span{
+        padding-bottom: 20px;
+    }
+
+    .details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:819px) {
+
+  .heading{
+    font-size: 5rem;
+  }
+
+  .heading-h2{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width:650px) {
+
+    .heading{
+      font-size: 4rem;
+    }
+
+    .heading-h2{
+        font-size: 2rem;
+    }
+  }
+
+@media (max-width:650px) {
+
+    .heading{
+      font-size: 3rem;
+    }
+
+    .heading-h2{
+        font-size: 1.5rem;
+    }
+  }
